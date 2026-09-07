@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite>
+<suite name="Suite">
+	<test thread-count="5" name="Test">
+		<classes>
+			<class name="Register.TC_RF_001" />
+			<class name="Register.TC_RF_003" />
+			<class name="Register.TC_RF_004" />
+			<class name="Register.TC_RF_005" />
+			<class name="Register.TC_RF_006" />
+		</classes>
+	</test> <!--
+	Test -->
+</suite> <!--
+Suite -->
