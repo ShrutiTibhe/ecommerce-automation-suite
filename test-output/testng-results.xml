@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-09-07T22:00:13 IST" name="Default suite" finished-at="2026-09-07T22:00:21 IST" duration-ms="7998">
+  <suite started-at="2026-09-08T22:52:45 IST" name="Default suite" finished-at="2026-09-08T22:52:51 IST" duration-ms="5938">
     <groups>
     </groups>
-    <test started-at="2026-09-07T22:00:13 IST" name="Default test" finished-at="2026-09-07T22:00:21 IST" duration-ms="7998">
-      <class name="Register.TC_RF_008">
-        <test-method is-config="true" signature="setup()[pri:0, instance:Register.TC_RF_008@4c583ecf]" started-at="2026-09-07T22:00:13 IST" name="setup" finished-at="2026-09-07T22:00:17 IST" duration-ms="3698" status="PASS">
+    <test started-at="2026-09-08T22:52:45 IST" name="Default test" finished-at="2026-09-08T22:52:51 IST" duration-ms="5938">
+      <class name="Register.TC_RF_007">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Register.TC_RF_007@4c583ecf]" started-at="2026-09-08T22:52:45 IST" name="setup" finished-at="2026-09-08T22:52:49 IST" duration-ms="3562" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="confirmedPasswordValidation()[pri:0, instance:Register.TC_RF_008@4c583ecf]" started-at="2026-09-07T22:00:17 IST" name="confirmedPasswordValidation" finished-at="2026-09-07T22:00:21 IST" duration-ms="3790" status="PASS">
+        <test-method signature="verifyRegisterAccountPage()[pri:0, instance:Register.TC_RF_007@4c583ecf]" started-at="2026-09-08T22:52:49 IST" name="verifyRegisterAccountPage" finished-at="2026-09-08T22:52:51 IST" duration-ms="1841" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- confirmedPasswordValidation -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:Register.TC_RF_008@4c583ecf]" started-at="2026-09-07T22:00:21 IST" name="teardown" finished-at="2026-09-07T22:00:21 IST" duration-ms="436" status="PASS">
+        </test-method> <!-- verifyRegisterAccountPage -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Register.TC_RF_007@4c583ecf]" started-at="2026-09-08T22:52:51 IST" name="teardown" finished-at="2026-09-08T22:52:51 IST" duration-ms="442" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-      </class> <!-- Register.TC_RF_008 -->
+      </class> <!-- Register.TC_RF_007 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
