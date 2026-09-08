@@ -26,7 +26,7 @@ public class TC_RF_007 {
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-		driver.navigate().to("http://tutorialsninja.com/demo");
+		driver.get("http://tutorialsninja.com/demo");
 
 	}
 
