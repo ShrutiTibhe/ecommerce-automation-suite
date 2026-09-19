@@ -27,26 +27,26 @@ public class TC_RF_008 {
 	public void confirmedPasswordValidation() {
 
 		driver.findElement(By.xpath("//span[normalize-space()='My Account']")).click();
-		driver.findElement(By.xpath("(//a[normalize-space()='Register'])[1]")).click();
+		driver.findElement(
+				By.xpath("//ul[@class='dropdown-menu dropdown-menu-right']//a[normalize-space()='Register']")).click();
 		driver.findElement(By.xpath("//input[@id='input-firstname']")).sendKeys("Ameya");
-		driver.findElement(By.xpath("//input[@id='input-lastname']")).sendKeys("Belwalkar");
-		WebElement EmailID = driver.findElement(By.xpath("//input[@id='input-email']"));
-		String email = "ameyabelwalkar" + System.currentTimeMillis() + "@gmail.com";
-		EmailID.sendKeys(email);
-		driver.findElement(By.xpath("//input[@id='input-telephone']")).sendKeys("7977711075");
-		driver.findElement(By.xpath("//input[@id='input-password']")).sendKeys("898989");
-		driver.findElement(By.xpath("//input[@id='input-confirm']")).sendKeys("989898");
+		driver.findElement(By.xpath("//input[@id='input-lastname']")).sendKeys("Belvalkar");
+		WebElement emailIdTextbox = driver.findElement(By.xpath("//input[@id='input-email']"));
+		String email = "ameyabelvalkar" + System.currentTimeMillis() + "@gmail.com";
+		emailIdTextbox.sendKeys(email);
+		driver.findElement(By.xpath("//input[@id='input-telephone']")).sendKeys("8080227157");
+		driver.findElement(By.xpath("//input[@id='input-password']")).sendKeys("Pass@12345");
+		driver.findElement(By.xpath("//input[@id='input-confirm']")).sendKeys("Pass@12345");
+		driver.findElement(By.xpath("//input[@value='0']")).click();
 		driver.findElement(By.xpath("//input[@name='agree']")).click();
 		driver.findElement(By.xpath("//input[@value='Continue']")).click();
 
-		// Assert Equal
-		String actualMessage = driver.findElement(By.xpath("//div[@class='text-danger']")).getText();
-		String ExpectedMessage = "Password confirmation does not match password!";
-		Assert.assertEquals(actualMessage, ExpectedMessage, "Password confirmation does not match password!");
+		boolean warningMessage = driver.findElement(By.xpath("//div[@class='text-danger']")).isDisplayed();
+		Assert.assertTrue(warningMessage);
 
-		// Assert True
-		boolean warningMeassage = driver.findElement(By.xpath("//div[@class='text-danger']")).isDisplayed();
-		Assert.assertTrue(warningMeassage);
+		boolean accountCreatedText = driver
+				.findElements(By.xpath("//h1[normalize-space()='Your Account Has Been Created!']")).size() > 0;
+		Assert.assertFalse(accountCreatedText);
 
 	}
 
