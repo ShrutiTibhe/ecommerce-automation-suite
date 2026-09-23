@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-09-22T22:44:21 IST" name="Default suite" finished-at="2026-09-22T22:44:50 IST" duration-ms="28755">
+  <suite started-at="2026-09-23T22:43:45 IST" name="Default suite" finished-at="2026-09-23T22:43:51 IST" duration-ms="5635">
     <groups>
     </groups>
-    <test started-at="2026-09-22T22:44:21 IST" name="Default test" finished-at="2026-09-22T22:44:50 IST" duration-ms="28755">
-      <class name="Register.TC_RF_012">
-        <test-method is-config="true" signature="setup()[pri:0, instance:Register.TC_RF_012@692f203f]" started-at="2026-09-22T22:44:22 IST" name="setup" finished-at="2026-09-22T22:44:25 IST" duration-ms="3660" status="PASS">
+    <test started-at="2026-09-23T22:43:45 IST" name="Default test" finished-at="2026-09-23T22:43:51 IST" duration-ms="5635">
+      <class name="Register.TC_RF_013">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Register.TC_RF_013@4c583ecf]" started-at="2026-09-23T22:43:45 IST" name="setup" finished-at="2026-09-23T22:43:48 IST" duration-ms="3364" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="registeringAccountUsingKeyboard()[pri:0, instance:Register.TC_RF_012@692f203f]" started-at="2026-09-22T22:44:25 IST" name="registeringAccountUsingKeyboard" finished-at="2026-09-22T22:44:49 IST" duration-ms="24175" status="PASS">
+        <test-method signature="registerAccountProperPlaceholders()[pri:0, instance:Register.TC_RF_013@4c583ecf]" started-at="2026-09-23T22:43:48 IST" name="registerAccountProperPlaceholders" finished-at="2026-09-23T22:43:50 IST" duration-ms="1790" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- registeringAccountUsingKeyboard -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:Register.TC_RF_012@692f203f]" started-at="2026-09-22T22:44:49 IST" name="teardown" finished-at="2026-09-22T22:44:50 IST" duration-ms="822" status="PASS">
+        </test-method> <!-- registerAccountProperPlaceholders -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Register.TC_RF_013@4c583ecf]" started-at="2026-09-23T22:43:50 IST" name="teardown" finished-at="2026-09-23T22:43:50 IST" duration-ms="387" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-      </class> <!-- Register.TC_RF_012 -->
+      </class> <!-- Register.TC_RF_013 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
