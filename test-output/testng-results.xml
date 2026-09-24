@@ -1,25 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-09-23T22:43:45 IST" name="Default suite" finished-at="2026-09-23T22:43:51 IST" duration-ms="5635">
+  <suite started-at="2026-09-24T22:48:09 IST" name="Default suite" finished-at="2026-09-24T22:48:19 IST" duration-ms="10329">
     <groups>
     </groups>
-    <test started-at="2026-09-23T22:43:45 IST" name="Default test" finished-at="2026-09-23T22:43:51 IST" duration-ms="5635">
-      <class name="Register.TC_RF_013">
-        <test-method is-config="true" signature="setup()[pri:0, instance:Register.TC_RF_013@4c583ecf]" started-at="2026-09-23T22:43:45 IST" name="setup" finished-at="2026-09-23T22:43:48 IST" duration-ms="3364" status="PASS">
+    <test started-at="2026-09-24T22:48:09 IST" name="Default test" finished-at="2026-09-24T22:48:19 IST" duration-ms="10329">
+      <class name="Register.TC_RF_027">
+        <test-method signature="registerWithChrome()[pri:1, instance:Register.TC_RF_027@7c7b252e]" started-at="2026-09-24T22:48:09 IST" name="registerWithChrome" finished-at="2026-09-24T22:48:14 IST" duration-ms="4825" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="registerAccountProperPlaceholders()[pri:0, instance:Register.TC_RF_013@4c583ecf]" started-at="2026-09-23T22:43:48 IST" name="registerAccountProperPlaceholders" finished-at="2026-09-23T22:43:50 IST" duration-ms="1790" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- registerAccountProperPlaceholders -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:Register.TC_RF_013@4c583ecf]" started-at="2026-09-23T22:43:50 IST" name="teardown" finished-at="2026-09-23T22:43:50 IST" duration-ms="387" status="PASS">
+        </test-method> <!-- registerWithChrome -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Register.TC_RF_027@7c7b252e]" started-at="2026-09-24T22:48:14 IST" name="teardown" finished-at="2026-09-24T22:48:14 IST" duration-ms="396" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-      </class> <!-- Register.TC_RF_013 -->
+        <test-method signature="registerWithEdge()[pri:2, instance:Register.TC_RF_027@7c7b252e]" started-at="2026-09-24T22:48:14 IST" name="registerWithEdge" finished-at="2026-09-24T22:48:19 IST" duration-ms="4582" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerWithEdge -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Register.TC_RF_027@7c7b252e]" started-at="2026-09-24T22:48:19 IST" name="teardown" finished-at="2026-09-24T22:48:19 IST" duration-ms="382" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Register.TC_RF_027 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
